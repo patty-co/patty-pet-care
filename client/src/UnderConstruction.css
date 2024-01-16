@@ -1,0 +1,46 @@
+/* src/components/UnderConstruction.css */
+body {
+    font-family: 'Lazy Dog', cursive; /* Set font family for the entire page */
+    margin: 0;
+}
+
+.header {
+    text-align: center;
+    background-color: #8FBC8F; /* Soft Green background color */
+}
+
+.logo {
+    max-width: 150px; /* Adjust the size of your logo */
+    display: block;
+    margin: 0 auto; /* Center the image within the header */
+}
+
+.container {
+    text-align: center;
+    background-color: #D2B48C; /* Tan background color */
+    padding: 20px;
+    min-height: calc(100vh - 150px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.under-construction {
+    margin-top: 20px;
+    font-size: 50px;
+    animation: blink 1s infinite; /* Under Construction text blinking animation */
+}
+
+p {
+    font-size: 24px;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+  
